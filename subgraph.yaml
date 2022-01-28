@@ -8,12 +8,12 @@ dataSources:
     name: Comptroller
     network: mainnet
     source:
-      address: "0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B"
+      address: "0x0F390559F258eB8591C8e31Cf0905E97cf36ACE2"
       abi: Comptroller
-      startBlock: 7700000
+      startBlock: 12380799
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.1
       language: wasm/assemblyscript
       file: ./src/mappings/comptroller.ts
       entities:
@@ -55,7 +55,7 @@ templates:
       abi: CToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.1
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
